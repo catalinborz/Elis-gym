@@ -1,0 +1,368 @@
+html,body{
+	height:100%;
+}
+
+.container2.container3{
+	font-size: 14px;
+}
+
+/*--------navbar---------*/
+
+.navbar{
+	position: fixed;
+	max-width: 100%;
+	font-size: 2em;
+}
+
+.nav.navbar-nav.navbar-right li a{
+	color: #000;
+	line-height: 100%;
+}
+
+.navbar-collapse .navbar-nav>li>a:hover,
+.navbar-collapse .navbar-nav>li>a:focus{
+  background-color: #f2b632;
+  color: #fff;
+}
+
+.navbar-brand img{
+	box-sizing: border-box;
+	max-height: 150%;
+	margin-left: -2%;
+}/*------------end of navbar-----------*/
+
+
+/*----------------carousel--------------*/
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+	  margin: auto;
+	  display: block;
+	  max-height: 68vh;
+}
+
+.carousel-indicators li{
+	background-color: #000;
+	border: #000;
+}
+
+.carousel-indicators .active{
+	background-color: #f2b632;
+}
+
+.glyphicon{
+	color: #000;
+}
+
+a:hover> .glyphicon{
+	color: #f2b632;
+}/*------------end of carousel-----------*/
+
+/*---------------Tabs--------------*/
+
+#tarife, #contact{
+	text-align: center;
+	font-weight: bold;
+}
+
+table{
+	width: 100%;
+}
+
+.container2{
+	background-color: #E9E9E9;
+}
+
+.container3{
+	background-color: #252839;
+	color: #fff;
+}
+	
+.tab-content{
+	margin: 0 auto;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.nav-tabs li a{
+	font-size: 2.5em;
+	color: #b5b5b7;
+}
+
+.nav-tabs li a:hover{
+	background-color: #f2b632;
+	color: #fff;
+}
+
+.tab-content th{
+	border: 1px solid #ddd;
+	text-align: center;
+	padding: 0 5% 0 5%;
+	background-color: #fff;
+}	
+/*---------------End of Tabs--------------*/
+
+
+.container3 h2{
+	color: #fff;
+	margin-left: 1%;
+}
+
+#contact_map{
+	margin-top: 2.5%;
+	margin-bottom: 2%;
+}
+
+.glyphicon-earphone{
+	color: #fff;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.glyphicon-envelope{
+	color: #fff;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.row h2{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+ 
+/*------------------Break points---------------------*/
+
+@media (max-width: 420px){
+	.navbar-brand img{
+		max-height: 120%;
+		margin-left: -4%;
+		margin-top: 1%;
+	}
+}
+
+@media (max-width: 350px){
+	.navbar-brand img{
+		max-height: 96%;
+		margin-top: 2%;
+	}
+}
+
+@media only screen and (min-width : 200px){
+	.nav-tabs li a{
+	font-size: 1.2em;
+	}
+	
+	#tarife, #contact{
+		font-size: 1.8em;
+		margin-top: 4%;
+		margin-bottom: 4%;
+	}
+	
+	.groups0,.groups1,.groups2{
+		font-size: 1.4em;
+		line-height: 150%;
+	}
+
+	.group_text0{
+		font-size: 1.2em;
+		line-height: 140%;
+	}
+	
+	.group_text1{
+		font-size: 1.2em;
+		line-height: 180%;
+	}
+	
+	.group_text2{
+		font-size: 1.2em;
+		line-height: 180%;
+	}
+	
+	.container2, .container3{
+		padding-top: 5%;
+	}
+	
+	.container3: first-child h2{
+		text-align: center;
+	}
+		
+	.container3 h2{
+		font-size: 1.5em;
+	}
+	
+	.glyphicon-earphone{
+		font-size: 2em;
+	}
+	
+	.glyphicon-envelope{
+		font-size: 2em;
+	}
+}
+
+@media only screen and (min-width : 480px){
+	.nav-tabs li a{
+		font-size: 1.5em;
+	}
+	
+	#tarife, #contact{
+		font-size: 2.1em;
+		margin-top: 2%;
+		margin-bottom: 2%;
+	}
+	
+	.groups0,.groups1,.groups2{
+		font-size: 1.8em;
+		line-height: 155%;
+	}
+
+	.group_text0{
+		font-size: 1.3em;
+		line-height: 140%;
+	}
+	
+	.group_text1{
+		font-size: 1.3em;
+		line-height: 180%;
+	}
+	
+	.group_text2{
+		font-size: 1.3em;
+		line-height: 180%;
+	}
+	
+	.container2, .container3{
+		padding-top: 5%;
+	}
+	
+	.container3: first-child h2{
+		text-align: center;
+	}
+		
+	.container3 h2{
+		font-size: 1.5em;
+	}
+	
+	.glyphicon-earphone{
+		font-size: 3em;
+	}
+	
+	.glyphicon-envelope{
+		font-size: 3em;
+	}
+}
+ 
+@media only screen and (min-width : 768px){
+	.nav-tabs li a{
+		font-size: 1.5em;
+	}
+	
+	#tarife, #contact{
+		font-size: 2.4em;
+		margin-top: 1%;
+		margin-bottom: 1%;
+	}
+	
+	.groups0,.groups1,.groups2{
+		font-size: 2em;
+		line-height: 165%;
+	}
+
+	.group_text0{
+		font-size: 1.5em;
+		line-height: 150%;
+	}
+	
+	.group_text1{
+		font-size: 1.5em;
+		line-height: 190%;
+	}
+	
+	.group_text2{
+		font-size: 1.5em;
+		line-height: 190%;
+	}
+
+	.container2, .container3{
+		padding-top: 2%;
+	}
+	
+	.container3: first-child h2{
+		text-align: left;
+	}
+		
+	.container3 h2{
+		font-size: 1.5em;
+	}
+	
+	.glyphicon-earphone{
+		font-size: 3em;
+	}
+	
+	.glyphicon-envelope{
+		font-size: 3em;
+	}
+}
+ 
+@media only screen and (min-width : 992px){
+	.nav-tabs li a{
+		font-size: 1.8em;
+	}
+	
+	#tarife, #contact{
+		font-size: 2.7em;
+		margin-top: 0.5%;
+		margin-bottom: 0.5%;
+	}
+	
+	.groups0,.groups1,.groups2{
+		font-size: 2em;
+		line-height: 175%;
+	}
+
+	.group_text0{
+		font-size: 1.5em;
+		line-height: 160%;
+	}
+	
+	.group_text1{
+		font-size: 1.5em;
+		line-height: 200%;
+	}
+	
+	.group_text2{
+		font-size: 1.5em;
+		line-height: 200%;
+	}
+
+	.container2, .container3{
+		padding-top: 2%;
+	}
+	
+	.container3: first-child h2{
+		text-align: left;
+	}
+		
+	.container3 h2{
+		font-size: 1.8em;
+	}
+	
+	.glyphicon-earphone{
+		font-size: 3.3em;
+	}
+	
+	.glyphicon-envelope{
+		font-size: 3.3em;
+	}
+}
+ 
+@media only screen and (min-width : 1200px){
+	.nav-tabs li a{
+		font-size: 2em;
+	}
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+	  max-height: 95vh;
+	  min-width: 100vw;
+	}
+}
